@@ -66,6 +66,8 @@ footer p span a{
 nav {
     background-color: #00a2c6;
     padding: 20px;  
+    position: sticky;
+    top: 0;
 }
 nav ul {
   display: flex;
@@ -83,7 +85,16 @@ nav ul li a{
 
 main{
     padding: 20px;
-    overflow: auto;
+}
+
+main::after{
+    content: "";
+    display: block;
+    clear: both;    
+}
+
+header{
+    display: inline;
 }
 
 @media screen and (max-width:420px) {
