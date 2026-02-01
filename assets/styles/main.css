@@ -1,0 +1,114 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+h2,h3{
+    color: #00a2c6;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+aside .profil header{
+    text-align: center;
+}
+footer{
+    padding: 20px;
+    color: #fff;
+    background-color: #00a2c6;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer p span a{
+    color: #fff;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profil img{
+    width: 50%;
+}
+
+.card{
+    box-shadow: 0 6.18px 6.18px 0 rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.jumbotron {
+ font-size: 20px;
+ padding: 60px;
+ background-color: #00c8eb; 
+ text-align: center;
+ color: white;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 20px;  
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    color: #fff;
+    font-weight: bold;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+@media screen and (max-width:420px) {
+    nav ul li a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+}
+}
+
+@media screen and (min-width:992px) {
+    
+#content {
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+} 
+
+aside{
+    width: 25%;
+    float: right;
+}   
+
+.profil img{
+    width: 80%;
+}
+
+}
